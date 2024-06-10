@@ -1,1 +1,1 @@
-<img src="./src/sign-up.png" height="1000px" width="1000px">
+<img  alt="sign-up" width="1000" src="file:///C:/Users/CC/Pictures/React%20App%20-%20Google%20Chrome%206_6_2024%206_07_14%20AM.png">
