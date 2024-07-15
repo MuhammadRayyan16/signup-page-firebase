@@ -3,6 +3,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { collection, addDoc } from "firebase/firestore";
 import { useState } from "react";
 
+
 function Signup() {
     const [username, setUsername] = useState("");
     const [name, setName] = useState("");
@@ -23,6 +24,7 @@ function Signup() {
                     userId: user.uid
                 });
             })
+
             .then(() => {
                 setUsername("");
                 setName("");
@@ -36,6 +38,7 @@ function Signup() {
                 alert(`Error: ${error.message}`);
             });
     }
+
 
     return (
         <div className="main">
