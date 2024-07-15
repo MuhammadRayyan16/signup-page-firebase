@@ -67,6 +67,7 @@ input {
   border-radius: 5px;
 }
 
+
 button {
   width: 60%;
   height: 40px;
@@ -85,8 +86,9 @@ button {
   cursor: pointer;
 }
 
+
 button:hover {
-  background: #278677;
+  background: #573b8a;
 }
 
 .login {
@@ -96,6 +98,7 @@ button:hover {
   transform: translateY(-180px);
   transition: .8s ease-in-out;
 }
+
 
 .login label {
   color: #573b8a;
